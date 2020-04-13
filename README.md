@@ -10,3 +10,8 @@ Commands
 - cd app
 - python manage.py migrate
 - python manage.py runserver
+-
+- python manage.py startapp todo
+- python manage.py makemigrations todo
+- python manage.py migrate todo
+- python3.7 manage.py test && flake8
